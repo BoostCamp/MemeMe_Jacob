@@ -63,6 +63,9 @@
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TkZ-8P-VJW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="J3u-YD-htW"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem systemItem="action" id="v7W-cX-IU7">
                                         <connections>
