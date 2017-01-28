@@ -306,7 +306,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sent Memes" id="8hy-j4-vVL">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="pQW-8U-MfA"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lAA-ja-9S4">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" id="uhK-mT-Wud"/>
@@ -325,7 +324,7 @@
         <scene sceneID="KzE-dj-Enr">
             <objects>
                 <collectionViewController storyboardIdentifier="PreviewViewController" id="pzS-Za-3LQ" customClass="PreviewViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" dataMode="prototypes" id="fzY-9A-mWQ">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="fzY-9A-mWQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ga4-uP-XrD">
@@ -336,7 +335,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="memePreviewCell" id="TuS-z3-9l8" customClass="MemeCollectionViewCell" customModule="MemeMe" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                                <rect key="frame" x="0.0" y="0.5" width="375" height="666"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="666"/>
